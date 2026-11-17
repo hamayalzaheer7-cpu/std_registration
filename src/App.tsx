@@ -62,8 +62,6 @@ function App() {
         </div>
 
         <h1>Student Registration</h1>
-        <p className="subtitle">Please provide your information to register.</p>
-
         <form onSubmit={handleSubmit}>
           <div className="form-grid">
             <div>

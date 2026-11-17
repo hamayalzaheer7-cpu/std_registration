@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   background: #eeeeee;
 }
 
@@ -20,10 +20,9 @@ body {
 .main-card {
   width: 850px;
   max-width: 100%;
-  background: #ffffff;
+  background: white;
   padding: 40px 50px;
   border-radius: 15px;
-  box-shadow: 0 8px 25px #cccccc;
 }
 
 /* Top heading */
@@ -32,32 +31,25 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid #dddddd;
-  color: #555555;
+  border-bottom: 1px solid white;
+  color: gray;
   font-size: 11px;
   letter-spacing: 2px;
 }
 
 .status {
-  background: #eeeeee;
-  color: #222222;
+  background:rgb(241, 240, 240);
+  color: black;
   padding: 8px 12px;
   border-radius: 20px;
 }
 
 /* Main title */
 h1 {
-  color: #111111;
+  color:black;
   font-size: 32px;
-  margin: 30px 0 10px;
+  margin: 30px 0px 60px;
 }
-
-.subtitle {
-  color: #777777;
-  font-size: 14px;
-  margin-bottom: 35px;
-}
-
 /* Form layout */
 .form-grid {
   display: grid;
@@ -68,7 +60,7 @@ h1 {
 label {
   display: block;
   margin-bottom: 9px;
-  color: #222222;
+  color: black;
   font-weight: bold;
   font-size: 13px;
 }
@@ -77,16 +69,15 @@ label {
 input, select {
   width: 100%;
   padding: 14px;
-  border: 1px solid #cccccc;
+  border: 1px solid black;
   border-radius: 7px;
-  background: #f8f8f8;
-  outline: none;
+  background: white;
   font-size: 14px;
-  color: #222222;
+  color: black;
 }
 
 input:focus, select:focus {
-  border-color: #222222;
+  border-color: black;
   background: white;
 }
 
@@ -95,22 +86,21 @@ button {
   width: 100%;
   padding: 15px;
   margin-top: 30px;
-  background: #111111;
+  background: black;
   color: white;
   border: none;
   border-radius: 7px;
   font-size: 14px;
-  cursor: pointer;
 }
 
 button:hover {
-  background: #444444;
+  background: gray;
 }
 
 /* Message */
 .message {
   text-align: center;
-  color: #222222;
+  color: black;
   font-size: 14px;
   margin-top: 20px;
 }
@@ -119,13 +109,11 @@ button:hover {
 .result {
   margin-top: 30px;
   padding: 22px;
-  background: #f2f2f2;
-  border-radius: 10px;
-  border-left: 4px solid #111111;
+  background: white;
 }
 
 .result h2 {
-  color: #111111;
+  color: black;
   font-size: 19px;
   margin-top: 0;
 }
@@ -137,7 +125,7 @@ button:hover {
 }
 
 .details p {
-  color: #333333;
+  color: black;
   font-size: 14px;
   line-height: 1.8;
 }
